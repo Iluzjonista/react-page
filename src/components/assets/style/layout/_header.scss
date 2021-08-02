@@ -1,0 +1,40 @@
+.header {
+
+  &__image {
+    height: 100vh;
+
+    &-pic {
+      background-position: center bottom;
+      background-size: cover;
+    }
+
+    &--bear {
+      height: 100vh;
+      background: url(../../images/5d0d1032e8ded0aa4370065d_foreground-bottom.png) center no-repeat;
+      background-size: cover;
+    }
+  }
+
+  &__row {
+    color: $white;
+
+    &--textarea {
+      color: $white;
+      margin-top: 220px;
+
+      &-title {
+        font-size: 5rem;
+        //text-transform: uppercase;
+        font-family: 'Special Elite', cursive;
+        font-weight: 700;
+
+      }
+
+      &-text {
+
+        font-size: 1rem;
+        font-weight: 300;
+      }
+    }
+  }
+}
